@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Unirade</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo">🖤 Unirade</span>
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="login.html">Logout</a>
+            <button id="themeToggle">🌓</button>
+        </nav>
+    </header>
+    <main>
+        <h2>Your Dashboard</h2>
+        <p>Welcome back! Navigate using the links below:</p>
+        <ul>
+            <li><a href="profile.html">Your Profile</a></li>
+            <li><a href="discover.html">Browse Matches</a></li>
+            <li><a href="chat.html">Messages</a></li>
+        </ul>
+        <section id="notifications">
+            <h3>Notifications</h3>
+            <ul id="notifList">
+                <!-- JS inject -->
+            </ul>
+        </section>
+        <div id="matchesSection">
+            <h3>Your Matches</h3>
+            <ul id="matchesList">
+                <!-- populated by JS -->
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 Unirade. All rights reserved.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

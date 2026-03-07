@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - Unirade</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo">🖤 Unirade</span>
+            <a href="index.html">Home</a>
+            <a href="discover.html">Browse Matches</a>
+            <a href="login.html">Login/Signup</a>
+            <button id="themeToggle">🌓</button>
+        </nav>
+    </header>
+    <main>
+        <h2>Student Registration</h2>
+        <form id="registerForm">
+            <label for="email">University Email</label>
+            <input type="email" id="email" placeholder="bit09125@uoeld.ac.ke" required />
+            <label for="name">Name</label>
+            <input type="text" id="name" required />
+            <label for="password">Password</label>
+            <input type="password" id="password" required />
+            <label for="age">Age</label>
+            <input type="number" id="age" min="16" max="100" required />
+            <label for="course">Course</label>
+            <input type="text" id="course" required />
+            <label for="year">Year of Study</label>
+            <input type="number" id="year" min="1" max="10" required />
+            <label for="interests">Interests</label>
+            <input type="text" id="interests" placeholder="e.g. music, coding" />
+            <label for="photo">Profile Photo URL</label>
+            <input type="text" id="photo" placeholder="https://..." />
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 Unirade. All rights reserved.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
